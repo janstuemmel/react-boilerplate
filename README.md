@@ -1,5 +1,7 @@
 # React boilerplate
 
+[![Build Status](https://travis-ci.org/janstuemmel/react-boilerplate.svg?branch=master)](https://travis-ci.org/janstuemmel/react-boilerplate)
+
 Another react boilerplate with following modules:
 
 * `bootstrap`
