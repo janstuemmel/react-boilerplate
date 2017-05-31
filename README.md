@@ -1,5 +1,13 @@
 # React boilerplate
 
+Another react boilerplate with following modules:
+
+* `bootstrap`
+* `react-bootstrap`
+* `react-router-dom`
+
+Testing with `jest` and `enzyme`.
+
 ## Install
 
 ```sh

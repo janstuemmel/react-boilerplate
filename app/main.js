@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends Component {
+import { BrowserRouter as Router } from 'react-router-dom';
 
-  constructor() {
-    super();
-  }
+import App from './app';
 
-  render() {
-    return (
-      <div>
-        Hello
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>
+, document.getElementById('root'));
