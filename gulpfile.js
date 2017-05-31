@@ -69,10 +69,10 @@ gulp.task('assets', function() {
   });
 });
 
-gulp.task('build', function() {
+gulp.task('build', ['assets'], function() {
   return buildScript('main.js', false);
 });
 
-gulp.task('default', ['build'], function() {
+gulp.task('default', ['assets'], function() {
   return buildScript('main.js', true);
 });
