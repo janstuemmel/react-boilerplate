@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.ubari.de:jan/react-boilerplate.git"
+    "url": "git@github.com:janstuemmel/react-boilerplate.git"
   },
   "jest": {
     "verbose": true,
